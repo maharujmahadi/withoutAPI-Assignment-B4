@@ -23,7 +23,7 @@ MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 
 
 def get_api_key() -> str:
-    key = os.environ.get("MISTRAL_API_KEY") or "cQwUVAjWVPgxsPAlGyaehrQKykV9CItF"
+    key = os.environ.get("MISTRAL_API_KEY") or ".............."
     if not key:
         raise EnvironmentError(
             "MISTRAL_API_KEY is not set. Set it in your environment (or in a .env file) to use the agent."  # noqa: E501
