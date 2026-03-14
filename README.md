@@ -32,6 +32,8 @@ pip install -r requirements.txt
 ```bash
 setx MISTRAL_API_KEY "<your_api_key>"
 ```
+**You can also put the API key in agent.py , line 26**
+
 
 3. Run the Streamlit app:
 
